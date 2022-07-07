@@ -1,0 +1,13 @@
+from turtle import Turtle, Screen
+import random
+
+
+timmy_turtle = Turtle()
+timmy_turtle.shape("turtle")
+timmy_turtle.color("red")
+
+for _ in range(15):
+    timmy_turtle.forward(10)
+    timmy_turtle.penup()
+    timmy_turtle.forward(10)
+    timmy_turtle.pendown()
